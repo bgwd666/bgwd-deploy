@@ -1,17 +1,25 @@
 {
-  "name": "deploy-node",
+  "name": "bgwd-deploy",
   "version": "1.0.0",
-  "description": "deploy-node 前端自动化部署工具, 一键部署",
+  "description": "bgwd-deploy 前端自动化部署工具, 一键部署",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
     "deploy",
-    "deploy-node",
+    "bgwd-deploy",
     "前端自动化部署",
     "ssh"
   ],
   "author": "bgwd666",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "chalk": "^4.0.0",
+    "compressing": "^1.5.1",
+    "inquirer": "^7.1.0",
+    "node-ssh": "^10.0.2",
+    "ora": "^4.0.4",
+    "shelljs": "^0.8.4"
+  }
 }
