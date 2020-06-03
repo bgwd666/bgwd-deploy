@@ -1,12 +1,20 @@
-# deploy-node
-前端自动部署工具
-###第一步 npm i bgwd-deploy -D
+# bgwd-deploy
+前端自动部署工具 
 
-###第二步 在你项目 package.json 文件 scripts 脚本下加上下面一行
-  "deploy": "node ./node_modules/bgwd-deploy/index"
+### 第一步 
+`npm i bgwd-deploy -D`
 
- ###第三步 在你项目根目录添加 deploy.config.js 文件 内容如下, 然后就可以 npm run deploy 部署了
-// 配置参考文件 
+### 第二步 
+**在你项目 package.json 文件 scripts 脚本下加上下面一行** 
+
+`"deploy": "node ./node\_modules/bgwd-deploy/index"`
+
+### 第三步 
+**在你项目根目录添加 deploy.config.js 文件 内容如下,**
+**然后就可以 npm run deploy 部署了.**
+
+```
+// 配置参考文件  实际配置文件需要用户在自己项目根目录 添加 deploy.config.js
 module.exports = Object.freeze({
   development: {//测试
     SERVER_PATH: 'xx.xxx.xx.xx', // ssh地址 服务器地址
@@ -32,3 +40,5 @@ module.exports = Object.freeze({
     // LOADINGSTYLE: 'arrow4' 
   }
 })
+```
+
