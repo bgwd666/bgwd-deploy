@@ -1,0 +1,17 @@
+{
+  "name": "deploy-node",
+  "version": "1.0.0",
+  "description": "deploy-node 前端自动化部署工具, 一键部署",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "deploy",
+    "deploy-node",
+    "前端自动化部署",
+    "ssh"
+  ],
+  "author": "bgwd666",
+  "license": "ISC"
+}
