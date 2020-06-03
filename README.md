@@ -7,7 +7,7 @@
 ### 第二步 
 **在你项目 package.json 文件 scripts 脚本下加上下面一行** 
 
-`"deploy": "node ./node\_modules/bgwd-deploy/index"`
+`"deploy": "node ./node_modules/bgwd-deploy/index"`
 
 ### 第三步 
 **在你项目根目录添加 deploy.config.js 文件 内容如下,**
