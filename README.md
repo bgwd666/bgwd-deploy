@@ -1,16 +1,20 @@
 # bgwd-deploy
-前端自动部署工具 
+一个简单方便的前端自动部署工具 
+
+说到部署很多人想到 Jenkins docker 等, 但学习使用成本 可能让很多人望而却步.
+
+倒不如试试我这个? 三步曲
 
 ### 第一步 
 `npm i bgwd-deploy -D`
 
 ### 第二步 
-**在你项目 package.json 文件 scripts 脚本下加上下面一行** 
+**在你项目 package.json 文件 scripts 脚本下加上下面一行(比较粗暴,有更好的方法望不吝赐教)** 
 
 `"deploy": "node ./node_modules/bgwd-deploy/index"`
 
 ### 第三步 
-**在你项目根目录添加 deploy.config.js 文件 内容如下,**
+**在你项目根目录添加 deploy.config.js 文件 内容如下:**
 **然后就可以 npm run deploy 部署了.**
 
 ```
