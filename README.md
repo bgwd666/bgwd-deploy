@@ -54,5 +54,3 @@ module.exports = Object.freeze({
   }
 })
 ```
-
-![image.png](https://pr-pictures.oss-cn-shenzhen.aliyuncs.com/static/deploy.png?OSSAccessKeyId=LTAI8DmoaMe6blcx&Expires=37581261224&Signature=%2BkivFO7sUOrmzNJcEpuX53PGt34%3D)
