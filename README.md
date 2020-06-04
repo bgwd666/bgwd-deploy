@@ -11,6 +11,7 @@
 
 [项目代码讲解](https://segmentfault.com/a/1190000020994461)
 
+
 ### 第一步 
 `npm i bgwd-deploy -D`
 
@@ -53,3 +54,5 @@ module.exports = Object.freeze({
   }
 })
 ```
+
+![image.png](https://pr-pictures.oss-cn-shenzhen.aliyuncs.com/static/deploy.png?OSSAccessKeyId=LTAI8DmoaMe6blcx&Expires=37581261224&Signature=%2BkivFO7sUOrmzNJcEpuX53PGt34%3D)
