@@ -19,7 +19,7 @@
 
 `"deploy": "node ./node_modules/bgwd-deploy/index"`
 
-![image.png](/img/bVbHYTK)
+![image.png](https://pr-pictures.oss-cn-shenzhen.aliyuncs.com/static/bgwd-deploy.png?OSSAccessKeyId=LTAI8DmoaMe6blcx&Expires=360001591249166&Signature=MpnbcAxb0DpYlZROthw49AltbaQ%3D)
 
 ### 第三步 
 **在你项目根目录添加 deploy.config.js 文件 内容如下:**
