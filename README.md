@@ -5,6 +5,12 @@
 
 倒不如试试我这个? 三步曲
 
+[项目github 地址](https://github.com/bgwd666/bgwd-deploy)
+
+[npm 地址](https://www.npmjs.com/package/bgwd-deploy)
+
+[项目代码讲解](https://segmentfault.com/a/1190000020994461)
+
 ### 第一步 
 `npm i bgwd-deploy -D`
 
@@ -12,6 +18,8 @@
 **在你项目 package.json 文件 scripts 脚本下加上下面一行(比较粗暴,有更好的方法望不吝赐教)** 
 
 `"deploy": "node ./node_modules/bgwd-deploy/index"`
+
+![image.png](/img/bVbHYTK)
 
 ### 第三步 
 **在你项目根目录添加 deploy.config.js 文件 内容如下:**
@@ -23,7 +31,7 @@ module.exports = Object.freeze({
   development: {//测试
     SERVER_PATH: 'xx.xxx.xx.xx', // ssh地址 服务器地址
     SSH_USER: 'root', // ssh 用户名
-    //登录方式 (二选一, 不用的方式注释掉)
+  //登录方式 (二选一, 不用的方式注释掉)
   //方式一 用秘钥登录服务器(推荐), 
     // 把本机 公钥 .ssh目录下 id_rsa.pub 放服务器 authorized_keys 文件里, 多个电脑公钥换行分开
     //private 本机私钥文件地址(需要在服务器用户目录 一般是 ~/.ssh/authorized_keys 配置公钥 并该文件权限为 600, (.ssh文件夹一般默认隐藏)
@@ -45,4 +53,3 @@ module.exports = Object.freeze({
   }
 })
 ```
-
