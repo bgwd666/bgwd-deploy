@@ -54,4 +54,4 @@ module.exports = Object.freeze({
   }
 })
 ```
-![image.png](https://segmentfault.com/img/bVbHZ5x)
+![image.png](http://www.bg666.xyz/pic/bgwd.png)
