@@ -27,6 +27,7 @@
 **然后就可以 npm run deploy 部署了.**
 
 ```
+// 关于团队合作 成员 PRIVATE_KEY 不一致问题, 可以每个成员单独配置自己的 PRIVATE_KEY 然后在 .gitignore 添加 deploy.congifg.js 忽略上传
 // 配置参考文件  实际配置文件需要用户在自己项目根目录 添加 deploy.config.js
 module.exports = Object.freeze({
   development: {//测试
