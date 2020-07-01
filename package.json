@@ -1,6 +1,6 @@
 {
   "name": "bgwd-deploy",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "bgwd-deploy 前端自动化部署工具, 一键部署",
   "main": "index.js",
   "scripts": {
