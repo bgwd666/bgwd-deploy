@@ -35,7 +35,7 @@ const compileDist = async () => {
   const loading = ora(defaultLog('项目开始打包')).start()
   loading.spinner = spinner_style[config.LOADINGSTYLE || 'arrow4']
   shell.cd(path.resolve(__dirname, pathHierarchy))
-  const res = await shell.exec('npm run build') //执行shell 打包命令
+  const res = await shell.exec(config.SHELL || 'npm run build') //执行shell 打包命令
   loading.stop()
   if (res.code === 0) {
     successLog('项目打包成功!')

@@ -1,6 +1,6 @@
 {
   "name": "bgwd-deploy",
-  "version": "1.0.0",
+  "version": "1.0.4",
   "description": "bgwd-deploy 前端自动化部署工具, 一键部署",
   "main": "index.js",
   "scripts": {
@@ -14,12 +14,17 @@
   ],
   "author": "bgwd666",
   "license": "ISC",
-  "devDependencies": {
+  "dependencies": {
     "chalk": "^4.0.0",
     "compressing": "^1.5.1",
     "inquirer": "^7.1.0",
     "node-ssh": "^10.0.2",
     "ora": "^4.0.4",
     "shelljs": "^0.8.4"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/bgwd666/bgwd-deploy"
+  },
+  "homepage": "https://github.com/bgwd666/bgwd-deploy"
 }
