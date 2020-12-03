@@ -3,7 +3,7 @@
 
 说到部署很多人想到 Jenkins docker 等, 但学习使用成本 可能让很多人望而却步.
 
-倒不如试试我这个? 三步曲
+倒不如试试我这个? 三步曲:
 
 [项目github 地址](https://github.com/bgwd666/bgwd-deploy)
 
